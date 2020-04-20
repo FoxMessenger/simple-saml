@@ -5,7 +5,6 @@ $this->includeAtTemplateBase('includes/header.php');
 
 ?>
 
-
 <?php
 if ($this->data['isadmin']) {
 	echo '<p class="float-r youareadmin">' . $this->t('{core:frontpage:loggedin_as_admin}') . '</p>';
@@ -24,9 +23,9 @@ if ($this->data['isadmin']) {
 	}
 ?>
 </ul>
-	
-	
-	
+
+
+
 	<h2><?php echo $this->t('{core:frontpage:about_header}'); ?></h2>
 		<p><?php echo $this->t('{core:frontpage:about_text}'); ?></p>
 

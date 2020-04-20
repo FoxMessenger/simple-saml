@@ -9,7 +9,7 @@ spring:
   security:
     saml2:
       identity-provider:
-        alias: demo-idp
+        alias: idp
         sign-metadata: true
         sign-assertions: true
         want-requests-signed: true
